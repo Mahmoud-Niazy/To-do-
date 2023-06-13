@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
        BlocProvider(create: (context)=> TodoCubit()..CreateDatabase()),
      ],
      child: MaterialApp(
+       debugShowCheckedModeBanner: false ,
        home: TodoLayout(),
      ),
    );
