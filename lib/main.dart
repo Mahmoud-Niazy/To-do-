@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:to_do/todo_cubit/todo_cubit.dart';
-import 'package:to_do/todo_layout/todo_layout.dart';
+import 'package:todo/todo_cubit/todo_cubit.dart';
+import 'package:todo/todo_layout/todo_layout.dart';
 
 void main(){
   runApp(MyApp());

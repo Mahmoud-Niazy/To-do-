@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:to_do/todo_cubit/todo_cubit.dart';
+import 'package:todo/todo_cubit/todo_cubit.dart';
 
 Widget BuildTaskItem (Map task,context){
   return Dismissible(

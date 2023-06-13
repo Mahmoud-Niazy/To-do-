@@ -2,10 +2,10 @@ import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:sqflite/sqflite.dart';
-import 'package:to_do/todo_cubit/todo_states.dart';
-import 'package:to_do/todo_screens/archieved_tasks.dart';
-import 'package:to_do/todo_screens/done_tasks.dart';
-import 'package:to_do/todo_screens/new_tasks.dart';
+import 'package:todo/todo_cubit/todo_states.dart';
+import 'package:todo/todo_screens/archieved_tasks.dart';
+import 'package:todo/todo_screens/done_tasks.dart';
+import 'package:todo/todo_screens/new_tasks.dart';
 
 import '../variables/variables.dart';
 

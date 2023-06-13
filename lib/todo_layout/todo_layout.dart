@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';
-import 'package:to_do/reusable_components/reusable_components.dart';
-import 'package:to_do/todo_cubit/todo_cubit.dart';
-import 'package:to_do/todo_cubit/todo_states.dart';
+import 'package:todo/reusable_components/reusable_components.dart';
+import 'package:todo/todo_cubit/todo_cubit.dart';
+import 'package:todo/todo_cubit/todo_states.dart';
 
 class TodoLayout extends StatelessWidget{
   var scaffold_key = GlobalKey<ScaffoldState>();

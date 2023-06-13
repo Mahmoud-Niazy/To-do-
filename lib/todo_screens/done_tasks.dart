@@ -1,12 +1,11 @@
 import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:to_do/todo_cubit/todo_states.dart';
-import 'package:to_do/variables/variables.dart';
+import 'package:todo/todo_cubit/todo_states.dart';
+import 'package:todo/variables/variables.dart';
 
 import '../components/components.dart';
 import '../todo_cubit/todo_cubit.dart';
-import '../variables/variables.dart';
 
 class DoneTasks extends StatelessWidget{
   @override
